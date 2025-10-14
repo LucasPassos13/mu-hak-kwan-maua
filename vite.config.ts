@@ -15,4 +15,9 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: './', // Crucial para GitHub Pages
+  build: {
+    outDir: 'docs', // Para gerar na pasta docs
+    emptyOutDir: true // Limpa a pasta antes de buildar
+  }
 }));
