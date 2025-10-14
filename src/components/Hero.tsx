@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-hapkido-black.jpg";
-import logoHapkido from "@/assets/logo-hapkido.png";
+import heroImage from "@/assets/hero-hapkido-authentic.jpg";
+import logoHapkido from "@/assets/logo-hapkido-transparent.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
