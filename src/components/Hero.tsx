@@ -34,7 +34,7 @@ const Hero = () => {
             Academia de Hapkido
           </div>
           <div className="text-xl md:text-2xl text-accent mb-8 font-semibold">
-            Liderada pelo Kiosanin Joel
+            Kiosanin Joel
           </div>
           <p className="text-lg md:text-xl text-white/90 mb-12 max-w-2xl mx-auto">
             Descubra a arte marcial coreana que combina técnicas de defesa pessoal, 
