@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-hapkido.jpg";
+import heroImage from "@/assets/hero-hapkido-black.jpg";
+import logoHapkido from "@/assets/logo-hapkido.png";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -18,6 +19,13 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-fade-in">
+          <div className="flex justify-center mb-8">
+            <img 
+              src={logoHapkido} 
+              alt="International Hapki Do Federation Logo" 
+              className="w-32 h-32 md:w-40 md:h-40 drop-shadow-2xl"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
             MU HAK KWAN
           </h1>

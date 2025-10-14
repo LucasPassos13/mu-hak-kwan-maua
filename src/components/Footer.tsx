@@ -1,8 +1,17 @@
+import logoHapkido from "@/assets/logo-hapkido.png";
+
 const Footer = () => {
   return (
     <footer className="bg-secondary text-secondary-foreground py-12 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <div className="flex justify-center mb-4">
+            <img 
+              src={logoHapkido} 
+              alt="International Hapki Do Federation Logo" 
+              className="w-20 h-20"
+            />
+          </div>
           <h3 className="text-2xl font-bold mb-4">Academia Mu Hak Kwan</h3>
           <p className="text-secondary-foreground/70 mb-6">
             Kiosanin Joel - Hapkido tradicional em Mauá
