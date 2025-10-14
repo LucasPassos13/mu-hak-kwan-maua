@@ -44,17 +44,17 @@ const Hero = () => {
             <Button 
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
-              onClick={() => scrollToSection('location')}
+              onClick={() => window.open('https://wa.me/5511XXXXXXXXX?text=Olá, gostaria de agendar uma aula experimental de Hapkido', '_blank')}
             >
-              Visite Nossa Academia
+              Agende uma Aula Experimental
             </Button>
             <Button 
               size="lg"
               variant="outline"
               className="bg-white/10 hover:bg-white/20 text-white border-2 border-white font-semibold text-lg px-8 py-6 backdrop-blur-sm"
-              onClick={() => scrollToSection('historia')}
+              onClick={() => scrollToSection('location')}
             >
-              Conheça o Hapkido
+              Visite Nossa Academia
             </Button>
           </div>
         </div>

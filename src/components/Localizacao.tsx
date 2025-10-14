@@ -78,6 +78,7 @@ const Localizacao = () => {
                 <Button 
                   size="lg"
                   className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+                  onClick={() => window.open('https://wa.me/5511XXXXXXXXX?text=Olá, gostaria de agendar uma aula experimental de Hapkido', '_blank')}
                 >
                   Agende uma Aula Experimental
                 </Button>
