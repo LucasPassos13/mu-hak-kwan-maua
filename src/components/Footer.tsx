@@ -1,4 +1,4 @@
-import logoHapkido from "@/assets/logo-hapkido-transparent.png";
+import logoHapkido from "@/assets/logo-hapkido-clean.png";
 
 const Footer = () => {
   return (
