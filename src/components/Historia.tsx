@@ -1,4 +1,4 @@
-import symbolImage from "@/assets/hapkido-symbol.jpg";
+import symbolImage from "@/assets/simbolo.png";
 
 const Historia = () => {
   return (

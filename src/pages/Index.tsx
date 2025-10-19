@@ -4,8 +4,9 @@ import Mandamentos from "@/components/Mandamentos";
 import Graduacoes from "@/components/Graduacoes";
 import Localizacao from "@/components/Localizacao";
 import Footer from "@/components/Footer";
+import Galery  from "@/components/Galery";
 
-const Index = () => {
+const Index = () => { 
   return (
     <div className="min-h-screen bg-background">
       <Hero />
@@ -13,6 +14,7 @@ const Index = () => {
       <Mandamentos />
       <Graduacoes />
       <Localizacao />
+      <Galery />
       <Footer />
     </div>
   );

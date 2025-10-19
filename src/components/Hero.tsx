@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-hapkido-authentic.jpg";
-import logoHapkido from "@/assets/logo-hapkido-clean.png";
+import heroImage from "@/assets/hero.png";
+import logoHapkido from "@/assets/logo.png";
+import logoTakeda from "@/assets/logo_takeda.jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -11,10 +12,18 @@ const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-black bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+      </div>
+
+      <div className="absolute top-6 left-6 z-20 animate-fade-in">
+        <img 
+          src={logoTakeda} 
+          alt="Takeda Centro de Treinamento de Lutas Logo" 
+          className="w-24 h-24 md:w-32 md:h-32 drop-shadow-2xl"
+        />
       </div>
       
       <div className="absolute top-6 right-6 z-20 animate-fade-in">
@@ -28,13 +37,13 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-lg">
-            MU HAK KWAN
+            HAPKIDO
           </h1>
           <div className="text-2xl md:text-4xl text-white mb-4 font-light">
-            Academia de Hapkido
+            Estilo Mu Hak Kwan
           </div>
           <div className="text-xl md:text-2xl text-accent mb-8 font-semibold">
-            Kiosanin Joel
+            Kiosanin Joel Borges
           </div>
           <p className="text-lg md:text-xl text-white/90 mb-12 max-w-2xl mx-auto">
             Descubra a arte marcial coreana que combina técnicas de defesa pessoal, 
